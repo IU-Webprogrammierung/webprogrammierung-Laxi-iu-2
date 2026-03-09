@@ -9,105 +9,106 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#hero">Start</a></li>
-                <li><a href="#travel">Reiseübersicht</a></li>
-                <li><a href="#highlights">Highlights</a></li>
-                <li><a href="#about">Über mich</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">Logo</a>
+            <nav aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li><a href="#travel">Reiseübersicht</a></li>
+                    <li><a href="#highlights">Highlights</a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="kontakt.html" class="btn-nav">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-
-        <section id="hero"> 
-            <div class="hero-image">
-                <div class="hero-text">
-                    <h1>Reisen & Fotografie</h1>
-                    <p>Ein visuelles Portfolio meiner Reisen.</p>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-box">
+                    <h1>24 Länder bereist</h1>
+                    <p>Ein Portfolio über Reisen und Fotografie.</p>
                 </div>
             </div>
         </section>
 
-        <section id="travel">
+
+        <section id="travel" class="section">
             <div class="container">
                 <h2>Reiseübersicht</h2>
-
                 <div class="travel-grid">
                     <article class="card">
-                        <h3>Reise 1</h3>
-                        <p>Kurzbeschreibung der Reise.</p>
-                        <a href="reise1.html">Zur Detailseite</a>
+                        <h3>Marokko - Fés</h3>
+                        <p>5 Tage</p>
+                        <p>Architektur</p>
+                        <a href="reise1.html">Mehr →</a>
                     </article>
 
                     <article class="card">
-                        <h3>Reise 2</h3>
-                        <p>Kurzbeschreibung der Reise.</p>
-                        <a href="reise2.html">Zur Detailseite</a>
+                        <h3>Vietnam - Hanoi</h3>
+                        <p>10 Tage</p>
+                        <p>Stadt & Food</p>
+                        <a href="reise2.html">Mehr →</a>
                     </article>
 
                     <article class="card">
-                        <h3>Reise 3</h3>
-                        <p>Kurzbeschreibung der Reise.</p>
-                        <a href="reise2.html">Zur Detailseite</a>
+                        <h3>Portugal - Lissabon</h3>
+                        <p>5 Tage</p>
+                        <p>Stadt & Food</p>
+                        <a href="reise3.html">Mehr →</a>
                     </article>
 
                     <article class="card">
-                        <h3>Reise 4</h3>
-                        <p>Kurzbeschreibung der Reise.</p>
-                        <a href="reise2.html">Zur Detailseite</a>
+                        <h3>Griechenland - Kreta</h3>
+                        <p>5 Tage</p>
+                        <p>Entspannung</p>
+                        <a href="reise4.html">Mehr →</a>
                     </article>
 
                 </div>
             </div>
         </section>
 
-        <section id="highlights">
+        <section id="highlights" class="section">
             <div class="container">
                 <h2>Highlights</h2>
-                <p>Besondere Momente und Fotospots.</p>
-
-                <div class="highlights-grid">
-                    <article class="card">
-                        <img>
-                        <h3>Highlight 1</h3>
-                        <p>Kurzbeschreibung.</p>
+                <div class="highlight-grid">
+                    <article class="highlight-card">
+                        <img src="https://placehold.co/800x450" alt="Bild vom Meer" />
+                        <p class="tag">Meer</p>
                     </article>
-
-                    <article class="card">
-                        <img>
-                        <h3>Highlight 2</h3>
-                        <p>Kurzbeschreibung.</p>
-                    </article>
-
-                    <article class="card">
-                        <img>
-                        <h3>Highlight 3</h3>
-                        <p>Kurzbeschreibung.</p>
-                    </article>
-
-                    <article class="card">
-                        <img>
-                        <h3>Highlight 4</h3>
-                        <p>Kurzbeschreibung.</p>
+                    <article class="highlight-card">
+                        <img src="https://placehold.co/800x450" alt="Bild vom Gebäude" />
+                        <p class="tag">Architektur</p>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="about">
-            <h2>Über mich</h2>
-            <p>Informationen über mich und meine Leidenschaft für Reisen & Fotografie.</p>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Über mich</h2>
+                <div class="about-layout">
+                    <img src="https://placehold.co/400x400" alt="Bild von mir" class="about-image" />
+                    <div class="about-text">
+                        <p>
+                            Ich reise gerne, um neue Orte visuell festzuhalten. Dieses Portfolio verbindet meine
+                            Leidenschaft
+                            für Reisen und Fotografie in einer klaren Struktur.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p> 2026 Mein Portfolio</p>
+
+    <footer class="footer">
+        <div class="container">
+            <p>2026 Reisen & Fotografie</p>
+        </div>
     </footer>
 
 </body>
-
 </html>
