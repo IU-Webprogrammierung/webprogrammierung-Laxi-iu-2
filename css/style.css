@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Container für den Inhalt */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  /* Überschriften */
+  
+  h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  
+  /* Header */
+  
+  header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Hero */
+  
+  .hero {
+    background-color: #e5e5e5;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  
+  /* Allgemein Section */
+  
+  .section {
+    padding: 80px 0;
+  }
+  
+  
+  /* Reiseübersicht (Grid) */
+  
+  .travel-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Highlights */
+  
+  .highlight-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  
+  .highlight-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  /* About Me */
+  
+  .about-layout {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .about-image {
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Detailseite-Cards */
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  
+  
+  /* timeline*/
+  
+  .timeline {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .timeline-step {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  
+  /* Empfehlungen */
+  
+  .recommendation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  
+  
+  /* Bildergalerie*/
+  
+  .gallery {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+  }
+  
+  .gallery img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Kontakt */
+  
+  .contact-form {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    grid-column: 2;
+    padding: 10px 20px;
+  }
+  
+  
+  /* Footer */
+  
+  footer {
+    margin-top: 80px;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  
+  
+  /* Tablet */
+  
+  @media (max-width: 1279px) {
+  
+    .travel-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .highlight-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .info-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+  }
+  
+  
+  /* Mobile */
+  
+  @media (max-width: 767px) {
+  
+    .nav-wrapper {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .travel-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .about-layout {
+      flex-direction: column;
+    }
+  
+    .timeline {
+      flex-direction: column;
+    }
+  
+    .contact-form {
+      grid-template-columns: 1fr;
+    }
+  
+  }
