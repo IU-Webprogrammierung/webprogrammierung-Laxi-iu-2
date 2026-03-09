@@ -1,55 +1,151 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reise 1 – Details</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <a href="index.html#travel">Zurück zur Übersicht</a>
-    </nav>
-</header>
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html">Logo</a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html#travel">Reiseübersicht</a></li>
+                    <li><a href="index.html#highlights">Highlights</a></li>
+                    <li><a href="index.html#about">Über mich</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<main>
-    <article>
-        <h1>Reise 1</h1>
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-box">
+                    <h1>Marokko - Fés</h1>
+                    <p>Urlaub mit Freunden</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
 
-        <section>
-            <h2>Auf einen Blick</h2>
-            <ul>
-                <li>Ort:</li>
-                <li>Dauer:</li>
-                <li>Art der Reise:</li>
-                <li>Fotofokus:</li>
-            </ul>
+                <div class="info-grid">
+
+                    <article class="card">
+                        <h3>Ort</h3>
+                        <p>Marokko - Fés</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Dauer</h3>
+                        <p>5 Tage</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Art</h3>
+                        <p>Urlaub mit besten Freunden</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Foto-Art</h3>
+                        <p>Architektur</p>
+                    </article>
+
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Timeline</h2>
-            <p>Stichpunkte zur Reise.</p>
+        <section class="section">
+            <div class="container">
+
+                <h2>Timeline</h2>
+
+                <div class="timeline">
+                    <div class="timeline-step">Tag 1</div>
+                    <div class="timeline-step">Tag 2</div>
+                    <div class="timeline-step">Tag 3</div>
+                    <div class="timeline-step">Tag 4</div>
+                </div>
+
+            </div>
         </section>
 
-        <section>
-            <h2>Empfehlungen</h2>
-            <p>Checklisten und Tipps.</p>
+        <section class="section">
+            <div class="container">
+
+                <h2>Empfehlungen</h2>
+
+                <div class="recommendation-grid">
+
+                    <article class="card">
+                        <h3>Must See</h3>
+                        <ul>
+                            <li>Chefchaouen</li>
+                            <li>Palais Royal Fés</li>
+                            <li>Souks</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Tipps</h3>
+                        <ul>
+                            <li>viele Katzen</li>
+                            <li>Vorsicht vor Scammers</li>
+                            <li>Warme Kleidung</li>
+                        </ul>
+                    </article>
+
+                </div>
+
+            </div>
         </section>
 
-        <section>
-            <h2>Bildergalerie</h2>
-        </section>
-    </article>
-</main>
+        <section class="section">
+            <div class="container">
 
-<footer>
-    <p> 2026 Mein Portfolio</p>
-</footer>
+                <h2>Bildergalerie</h2>
+
+                <div class="gallery">
+                    <img src="https://placehold.co/400x250" alt="Reisefoto Fés 1">
+                    <img src="https://placehold.co/400x250" alt="Reisefoto Fés 2">
+                    <img src="https://placehold.co/400x250" alt="Reisefoto Fés 3">
+                </div>
+
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+
+                <h2>Karte</h2>
+
+                <div class="map-card">
+                    <img src="https://placehold.co/900x300" alt="Karte von Fés">
+                </div>
+
+                <p>
+                    <a href="index.html#travel">← Zurück zur Reiseübersicht</a>
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2026 Mein Portfolio</p>
+    </footer>
 
 </body>
+
 </html>
