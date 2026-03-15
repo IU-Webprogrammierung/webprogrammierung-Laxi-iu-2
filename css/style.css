@@ -54,9 +54,17 @@ body {
   /* Hero */
   
   .hero {
-    background-color: #e5e5e5;
-    padding: 100px 0;
+    background-image: linear-gradient(rgba(128, 116, 100, 0.4), rgba(128, 116, 100, 0.4)),url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 120px 0;
     text-align: center;
+  }
+
+  .hero p {
+    color: #ffffff;
   }
   
   .hero-box {
