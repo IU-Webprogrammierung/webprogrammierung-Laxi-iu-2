@@ -80,6 +80,10 @@ body {
   .section {
     padding: 80px 0;
   }
+
+  .section-light {
+    background-color: #D8C3A5;
+  }
   
   
   /* Reiseübersicht (Grid) */
