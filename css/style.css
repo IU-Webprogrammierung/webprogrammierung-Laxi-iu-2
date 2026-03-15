@@ -111,6 +111,10 @@ body {
     border-radius: 10px;
   }
   
+  .highlight-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
   
   /* About Me */
   
