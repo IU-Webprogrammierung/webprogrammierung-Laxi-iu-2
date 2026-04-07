@@ -92,7 +92,15 @@ body {
     padding-bottom: 96px;
   }
 
+  .section-white {
+    background-color: #ffffff;
+  }
+
   .section-light {
+    background-color: #f5f5f5;
+  }
+
+  .section-accent {
     background-color: #D8C3A5;
   }
   
