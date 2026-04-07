@@ -442,6 +442,19 @@ footer {
     padding: 28px;
   }
 
+  .travel-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .highlight-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .info-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -472,6 +485,11 @@ footer {
 /* Mobile */
 
 @media (max-width: 767px) {
+
+  .section {
+    padding: 64px 0;
+  }
+  
   .detail-hero {
     padding: 90px 0;
   }
@@ -494,7 +512,6 @@ footer {
     gap: 16px;
     margin-top: 16px;
   }
-
 
   .hero-box {
     max-width: 100%;
@@ -530,4 +547,39 @@ footer {
     width: fit-content;
     margin-top: 20px;
   }
+
+  /* Navigation */
+  .nav-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Grid */
+  .travel-grid,
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* About */
+  .about-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+
 }
