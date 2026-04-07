@@ -256,6 +256,11 @@ header {
   cursor: pointer;
 }
 
+/* Hover */
+.contact-form button:hover {
+  background-color: #2f575b;
+}
+
 /* Intro Text */
 .contact-intro {
   margin-bottom: 32px;
