@@ -317,6 +317,31 @@ header {
   display: block;
 }
 
+.btn-back {
+  display: inline-block;
+  margin-top: 24px;
+
+  padding: 10px 18px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+  color: #2b2b2b;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 
 /* Kontakt */
 
