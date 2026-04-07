@@ -262,8 +262,13 @@ header {
 
 .recommendation-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+}
+
+.recommendation-grid ul {
+  padding-left: 18px;
+  margin: 0;
 }
 
 
