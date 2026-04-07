@@ -13,3 +13,13 @@ if (counter) {
     }
     updateCounter();
 }
+
+const textarea = document.getElementById("message");
+const charCount = document.getElementById("charCount");
+
+if (textarea && charCount) {
+    textarea.addEventListener("input", function () {
+        const length = textarea.value.length;
+        charCount.textContent = length + " / 500";
+    });
+}
