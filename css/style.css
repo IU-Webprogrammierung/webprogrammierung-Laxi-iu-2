@@ -267,6 +267,13 @@ header {
   color: #555;
 }
 
+/* TextCount */
+#charCount {
+  font-size: 12px;
+  color: #666;
+  margin-top: -8px;
+  margin-bottom: 16px;
+}
 
 
 /* Footer */
