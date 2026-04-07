@@ -6,7 +6,7 @@ if (counter) {
     function updateCounter() {
         current++;
         counter.textContent = current;
-        
+
         if (current < end) {
             setTimeout(updateCounter, 80);
         }
@@ -21,5 +21,6 @@ if (textarea && charCount) {
     textarea.addEventListener("input", function () {
         const length = textarea.value.length;
         charCount.textContent = length + " / 500";
-    });
+    }
+    );
 }
