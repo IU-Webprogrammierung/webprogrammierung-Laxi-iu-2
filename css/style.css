@@ -276,13 +276,18 @@ header {
 
 .gallery {
   display: flex;
-  gap: 15px;
+  gap: 16px;
   overflow-x: auto;
+  padding-bottom: 8px;
 }
 
 .gallery img {
-  width: 300px;
-  border-radius: 10px;
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  flex-shrink: 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 
