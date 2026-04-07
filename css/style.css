@@ -180,10 +180,20 @@ header {
 /* Reise1 */
 
 .detail-hero {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 140px 0;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 .detail-hero .hero-content {
   display: flex;
@@ -414,19 +424,39 @@ footer {
 /* Tablet */
 
 @media (max-width: 1279px) {
-
-  .travel-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .detail-hero {
+    padding: 110px 0;
   }
 
-  .highlight-grid {
-    grid-template-columns: 1fr;
+  .hero-box {
+    max-width: 520px;
+    padding: 28px;
   }
 
   .info-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
+  .timeline {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .recommendation-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .gallery img {
+    width: 360px;
+    height: 240px;
+  }
+
+  .map-card iframe,
+  .map-card img {
+    height: 280px;
+  }
 }
 
 
