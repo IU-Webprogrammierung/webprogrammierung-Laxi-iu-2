@@ -186,12 +186,12 @@ header {
   background-repeat: no-repeat;
   padding: 140px 0;
 }
-.hero-content {
+.detail-hero .hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hero-box {
+.detail-hero .hero-box {
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -202,11 +202,11 @@ header {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-.hero-box h1 {
+.detail-hero .hero-box h1 {
   color: #000;
 }
 
-.hero-box p {
+.detail-hero .hero-box p {
   color: #000;
 }
 
