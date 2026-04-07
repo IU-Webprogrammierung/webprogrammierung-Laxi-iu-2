@@ -202,11 +202,13 @@ header {
   left: 0;
   z-index: 0;
 }
+
 .detail-hero .hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .detail-hero .hero-box {
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(10px);
@@ -324,7 +326,7 @@ header {
 .map-card {
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
 
 .map-card iframe {
@@ -473,6 +475,26 @@ footer {
   .detail-hero {
     padding: 90px 0;
   }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.active {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
 
   .hero-box {
     max-width: 100%;
