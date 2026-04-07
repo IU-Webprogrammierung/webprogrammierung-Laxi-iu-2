@@ -463,31 +463,42 @@ footer {
 /* Mobile */
 
 @media (max-width: 767px) {
-
-  .nav-wrapper {
-    flex-direction: column;
-    gap: 10px;
+  .detail-hero {
+    padding: 90px 0;
   }
 
-  .nav-list {
-    flex-direction: column;
-    align-items: center;
+  .hero-box {
+    max-width: 100%;
+    padding: 24px;
   }
 
-  .travel-grid {
+  .info-grid {
     grid-template-columns: 1fr;
-  }
-
-  .about-layout {
-    flex-direction: column;
+    gap: 16px;
   }
 
   .timeline {
-    flex-direction: column;
-  }
-
-  .contact-form {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
+  .recommendation-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .gallery img {
+    width: 85vw;
+    height: 220px;
+  }
+
+  .map-card iframe,
+  .map-card img {
+    height: 240px;
+  }
+
+  .btn-back {
+    width: fit-content;
+    margin-top: 20px;
+  }
 }
