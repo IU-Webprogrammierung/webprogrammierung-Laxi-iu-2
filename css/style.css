@@ -177,6 +177,42 @@ header {
   border-radius: 10px;
 }
 
+/* Reise1 */
+
+.detail-hero {
+  background-image: url("../images/fes-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 140px 0;
+}
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-box {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.hero-box h1 {
+  color: #000;
+}
+
+.hero-box p {
+  color: #000;
+}
+
+.detail-subtitle {
+  margin-top: 12px;
+}
 
 /* Detailseite-Cards */
 
