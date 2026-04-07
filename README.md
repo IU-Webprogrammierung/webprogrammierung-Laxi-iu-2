@@ -5,7 +5,7 @@
 Diese Website ist ein persönliches Portfolio mit dem Fokus auf Reisen und Fotografie. 
 Ziel ist es, Reisen visuell darzustellen und übersichtlich aufzubereiten, ohne einen klassischen Blog zu verwenden.
 
-Die Inhalte werden in einer scanbaren Struktur präsentiert, sodass Nutzer schnell Informationen erfassen können.
+Die Inhalte werden in einer verständlichen Struktur präsentiert, sodass Nutzer schnell Informationen erfassen können.
 
 
 
@@ -40,7 +40,7 @@ Die Website ist für verschiedene Bildschirmgrößen optimiert:
 - Tablet: 768px – 1279px
 - Desktop: ab 1280px
 
-Layouts passen sich entsprechend an (z. B. Grid → 1 Spalte auf Mobile).
+Layouts passen sich entsprechend an (z.B. Grid → 1 Spalte auf Mobile).
 
 
 
@@ -76,9 +76,7 @@ Folgende Maßnahmen wurden umgesetzt:
 
 
 
-## Git / Versionskontrolle
-
-Das Projekt wurde mit Git und GitHub verwaltet.
+## Git 
 
 - mehrere Commits während der Entwicklung
 - schrittweise Umsetzung der Features
