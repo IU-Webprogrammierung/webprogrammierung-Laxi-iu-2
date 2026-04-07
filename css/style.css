@@ -233,6 +233,7 @@ body {
     gap: 16px 24px;
   }
   
+   /* Inputs */
   .contact-form input,
   .contact-form textarea {
     width: 100%;
