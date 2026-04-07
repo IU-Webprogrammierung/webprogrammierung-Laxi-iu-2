@@ -235,9 +235,11 @@ body {
   
   .contact-form input,
   .contact-form textarea {
-    padding: 10px;
-    border-radius: 6px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
     border: 1px solid #ccc;
+    font-family: inherit;
   }
   
   .contact-form button {
