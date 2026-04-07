@@ -274,11 +274,16 @@ header {
 
 /* Bildergalerie*/
 
+.gallery-wrapper {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
 .gallery {
   display: flex;
   gap: 16px;
-  overflow-x: auto;
-  padding-bottom: 8px;
+  width: max-content;
 }
 
 .gallery img {
@@ -287,7 +292,16 @@ header {
   object-fit: cover;
   border-radius: 14px;
   flex-shrink: 0;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  scroll-snap-align: start;
+}
+
+.gallery img {
+  width: 420px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 14px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
 }
 
 /* Karte */
