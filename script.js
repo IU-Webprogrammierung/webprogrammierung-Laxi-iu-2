@@ -1,4 +1,5 @@
 const counter = document.getElementById("counter");
+if (counter) {
 let start = 0;
 let end = 24;
 
@@ -11,3 +12,4 @@ function updateCounter() {
 }
 
 updateCounter();
+}
